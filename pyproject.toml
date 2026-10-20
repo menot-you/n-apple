@@ -1,0 +1,39 @@
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[project]
+license-files = ["LICENSE"]
+license = "AGPL-3.0-only"
+name = "napple"
+version = "0.1.0"
+description = "nAPPLE: App Store Connect operations for the NOTT apps"
+authors = [{ name = "Tiago", email = "tiago@example.com" }]
+requires-python = ">=3.14"
+dependencies = [
+    # The official MCP Python SDK serves stdio, as in mcps/nbrowser.
+    "mcp>=2.3",
+    # ES256 JWTs for the App Store Connect API key.
+    "pyjwt>=2.8",
+    "cryptography>=43",
+    # The HTTP client the MCP SDK already brings.
+    "httpx2>=2.13",
+]
+
+[project.scripts]
+napple = "napple.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.0.0", "pytest-cov>=7.0.0", "pytest-xdist>=3.6", "ruff>=0.16.4", "mypy>=2.3.1", "mutmut==3.7.0"]
+
+[tool.pytest.ini_options]
+addopts = []
+
+[tool.ruff]
+target-version = "py314"
+
+[tool.uv.workspace]
+members = []

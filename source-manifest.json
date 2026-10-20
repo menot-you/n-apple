@@ -1,0 +1,351 @@
+{
+  "component": "napple",
+  "excluded_tests": {
+    "test_request_recall_hook.py": "Requires the private native evaluation runner."
+  },
+  "files": {
+    ".claude/context7.json": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "fce4dbd6f3476e6ba72f643e541aa12c70b4a13f129021b9cbcca3fd3bece200"
+    },
+    ".codex/config.toml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "d11f725cf227cf100022884bc054d7c175c5b4af136bbdba0bff02081cb5b57c"
+    },
+    ".github/ISSUE_TEMPLATE/bug.yml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "d7c8845f73e52fa4cda86656f569061848168f908b386c6fd2ffd40c9d898173"
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    ".github/ISSUE_TEMPLATE/documentation.yml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "c4c8821ace67e42efaf7d5258f4b4aac7c16ada969c15e810472f0e09d38bdda"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "3ce93dcaef1a5c1f04511596940c4c497de018dc88ccd9da89f7c5accf097d76"
+    },
+    ".github/workflows/ci.yml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "4585ecd059b4e1fbb1817712387fc184900ddcb21049fa2b7b97abc3a6473027"
+    },
+    ".github/workflows/codeql.yml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "042db466f23cca0b7b50c2dca769e1b0f70e2b4d1fbcf1a61e7cfcd6c85c9e07"
+    },
+    ".gitignore": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "930222c4609dfabf0675b0dd0dcc33a4d0249daea26d5dc20e1a49621a13c18b"
+    },
+    ".python-version": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "922fe0c3de073b01988e23348ea184456161678c5e329e6f34be89be24383f93"
+    },
+    "CHANGELOG.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "3969dce6e255aa56422ba5ce255f99d16aeebe44e265b476c8b4fcd7393dc323"
+    },
+    "CITATION.cff": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "2c825d9ddaf01cbd2c2046e5a9fd508d8d3b47c5939d40a5e1ba48af5062f339"
+    },
+    "CLAUDE.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "2f1e918abb7679f137e97c9d318190062e39c1596c9069266eac635a6cdbc864"
+    },
+    "CODE_OF_CONDUCT.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "8f912585a206b762e8b5ead8df05a11d2ff173a05004044bb746757adfa2b5bf"
+    },
+    "CONTRIBUTING.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "0473107e061b5d6472ed42d3eb1c41f03100e9e36b8c70c6a97a7b4a6caeea59"
+    },
+    "LICENSE": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "README.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "84a530ef09a042c5119f05fa6a26d3371fda7b5aab976a721ba9a3bfdd95e74f"
+    },
+    "SECURITY.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "dba32928f840e041388f8ec5dea984d8cf45813bbbbc6e36ee19137a180109b3"
+    },
+    "SUPPORT.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "471597a33465cce7419e808fa9b900931c24926d324e947931b451fcfc0d34fa"
+    },
+    "docs/ARCHITECTURE.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "3449a9fd95bd36ea08b8f7cef03bc88cf7d1e2900fb092b359b7d8a3992b9b2a"
+    },
+    "docs/DOCUMENTATION.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "7d2f6128b2e3b0a7385e7eace2c7bfe25cb66a4e01e274c79eb61f9e43f21c1f"
+    },
+    "docs/INSTALLATION.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "942a87692e17729ee0c168d5a315d159d78a60921402121468f798c41e5edc74"
+    },
+    "docs/PRIVACY.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "893dd7bf220ff2ae4233877de317bc32d26b45d7dd37cd2ae2c5081dc173e0db"
+    },
+    "docs/QUALITY.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "a5ad6e1d74349734698750a8c2b22f1fbdaa3f6f6b9f6973896f6cf0ecee4db0"
+    },
+    "docs/README.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "2c55cc2e1175a293909d9f7894753e1b69100f7552b8bc3a6ce304450bf2cf80"
+    },
+    "docs/REFERENCE.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "4b2733481702b4c536e3f0a3889602212269b6e61f6636f7f3f26a1ff726ca9d"
+    },
+    "docs/ROADMAP.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "fee23de1ea3c6610a9c7efc41519e61d40fd74e3257fec62536dcc19ca40648b"
+    },
+    "docs/RUNBOOK.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "d097d32d7588deb339589a5c89a997ec898b967b98e280f985fff103f5a4d9d4"
+    },
+    "docs/SETUP.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "637c40db9d624cd59311510fe9b6c7cdb110a34f31e309578b7ba33301cfdb1a"
+    },
+    "docs/TROUBLESHOOTING.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "b61d6efc7b1c86636c7d8bcd2e8c61e9a7b1b7ecc2de8baa5983d47cc9f479a7"
+    },
+    "docs/UPGRADE.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "73fd84cfe0386beb19e69e4f780b4b92789a7c4736bdf6ae40073377c59d3b11"
+    },
+    "docs/export-map.json": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "b0de769a5b879427ddd7a400c6737a60e1f1c6d868e8c716c8ad6d38d7df3c97"
+    },
+    "docs/figures/README.md": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "971588926ff398f34db7e28cfc5897d0718bafa7f7873cb87bc7a30044dc0a5a"
+    },
+    "docs/figures/browser-anatomy.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "3a5a591b1331103bfa45a01373723ae3bc97208eb7fdcb994ead0250e6b9611a"
+    },
+    "docs/figures/browser-security.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "70de579b974693df24db2010d53d9ecaa45bcbd2f63d3b5819a0d7717733927d"
+    },
+    "docs/figures/browser.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "10725a37a17a864801a393337f2757bd1e0c25433757a9ea203003dcd40c2e0f"
+    },
+    "docs/figures/memory-anatomy.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "8344dc49fb7f85f13545955b848547852e6fb123e9d742969edecbc1788bb0c2"
+    },
+    "docs/figures/memory-system1.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "d37c5315810d2328cd5989f545825cb68bdebfc4a81d216fff637b958c7904c2"
+    },
+    "docs/figures/memory.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "f3ac394c63151f5323712bc68e18e1a20aa66270556bdcccef83a9292a94214e"
+    },
+    "docs/figures/plugin-anatomy.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "cad57b9a10a716c5e9ce4aac1e082c8541a4ffbcbd77ba34c1f0b5b23ee69653"
+    },
+    "docs/figures/plugin-lifecycle.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "e1d3e812ae55fb005da561fe004a821cf3e1ef4430fbd88b8d270c57994c3e72"
+    },
+    "docs/figures/plugin.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "7da4b5da0dd9883f64a1a7494518c7be6c7b864d5ed033bcbd87306389067ff7"
+    },
+    "docs/figures/spawn-anatomy.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "923b58ea21976e7cef152af15450be1f8fa7703cd6aa68fb63c3f93898230afe"
+    },
+    "docs/figures/spawn-routing.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "423e420d587cd8c4515b8433121cf9de7e0ef6f09207c9efe55343c5c6c706c4"
+    },
+    "docs/figures/spawn.svg": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "5fb7a81f63f9c84b217a092fbc9edba1f531c7b95e3b076631a07e4ec5c289ef"
+    },
+    "docs/setup-catalog.json": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "b8898f0c4ab0c36f51fa2ae469fa82f0112d553a7384b210d53f4759d80cedf5"
+    },
+    "napple/__init__.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "f63bb144201c6bb796abf1a429c7d2765bf76643c80057bd5bbdd5cb6ffcb2c8"
+    },
+    "napple/auth.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "8310da22561fcaa23e602fb6bc5d07e7d19d9c2e1d44acd32f01840e6c3dae92"
+    },
+    "napple/cli.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "9d653db4ffd79bdad9508f7efe99465d600f94c7cb5aa69375aef7a9e52e64f8"
+    },
+    "napple/client.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "f61632ba7ff7663d5094b4386605231621a218fa98e90065409181edeb384bd7"
+    },
+    "napple/config.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "fe94a230719c3efdda66d87e9091dcb22440da0ccf0d8c538b62efa3fe6978ed"
+    },
+    "napple/errors.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "8ba4e64aaeeb44437fcfd39f171726790f539ea0b9577e41d57228bda6fc2768"
+    },
+    "napple/main.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "11e0e3b7e3b81d1a332b3836b0bb8b4e609101578e08574d16659915a289468e"
+    },
+    "napple/py.typed": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "napple/server.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "420aee37eb54b64237a13b9c7445a6f325d58b225bfebfb1667a78f0fbbfe94b"
+    },
+    "napple/upload.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "a0cfcf7e904c4f91246533f8a9a1b92a79303b319d6ff556bb0ce67d8312ed9b"
+    },
+    "ops/mirror/projects.json": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "4604ae9b625b13a09f2ac5947cdcfda23b8752f9ba8b23a67ab0dd96025e45fe"
+    },
+    "pyproject.toml": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "55ef752586cd3089b558eaa36b5ecf8d4e53f6d6015be7d41384ba2fee4b2c40"
+    },
+    "tests/conftest.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "8c9ee3d2ef78530f33501f97e882fd8f4af07b79deb9a610e61ee712cbc1687c"
+    },
+    "tests/test_auth.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "02f4fcb8b0e47e3ca25be51dd6f61bc2a4dc9f54b3474db2e2fe562b6ed4cccc"
+    },
+    "tests/test_cli.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "a524dfd7314fa24085bbede677c20b22eff486045ad57823535b08dcd092151c"
+    },
+    "tests/test_client.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "2b157a2b247dcb2e56f773a784ed82f6b682200e524dcf2f7585db4f85e3cd6d"
+    },
+    "tests/test_config.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "9317556eeef9639eeb14ad20a17f08c68a1dc49ca486ef8c4ab444bb9baa0d09"
+    },
+    "tests/test_server.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "d1259f06d031d2f4f447fe9c5b60efa74c8f95ab9996751e658f9e8c69c919dd"
+    },
+    "tests/test_upload.py": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "4981ff6ec3c3ef67c8afd2933d0a2d8067c6119b3e76a775bb35be10b397936b"
+    },
+    "uv.lock": {
+      "executable": false,
+      "mode": 420,
+      "sha256": "a04e707021332bdfdd79612e326a13e0be6aa30fc787dd69ea5cc9affb340f20"
+    }
+  },
+  "license": "AGPL-3.0-only",
+  "members": [],
+  "packages": {
+    "napple": {
+      "license": "AGPL-3.0-only",
+      "member": ".",
+      "module": "napple",
+      "version": "0.1.0"
+    }
+  },
+  "primary_module": "napple",
+  "schema": 1,
+  "target": "menot-you/n-apple"
+}
