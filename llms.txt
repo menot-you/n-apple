@@ -1,0 +1,22 @@
+# nAPPLE
+
+> MCP server and CLI for the App Store Connect API. It reads accounts, apps, builds, groups and signing, uploads builds, and creates bundle IDs, certificates and provisioning profiles. Part of the NOTT family.
+
+- It is not fastlane, Xcode or an App Store submission tool. It does not create app records or touch Xcode Cloud, sales, reviews or screenshots.
+- It does not ask before a write. It marks each write tool with `destructiveHint: true`, so the client must ask the person first.
+- CLI: `napple` (`napple --help`).
+- MCP server: `napple mcp serve [--upload-root PATH]` (stdio). 10 tools, all named `napple_*`. Write tools: `napple_build_upload`, `napple_bundle_create`, `napple_certificate_create`, `napple_profile_create`.
+- Configuration: `NOTT_NAPPLE_KEY_ID`, `NOTT_NAPPLE_ISSUER_ID` and `NOTT_NAPPLE_KEY_PATH` (an AuthKey .p8 file, mode 600). When none of the three is set, it reads `~/.nott/apple/AuthKey_<key id>.p8` and `~/.nott/apple/issuer_id`.
+- Invariants: get approval before each write tool call. Never put the key or a JWT in a result, a log or a commit. Only a GET retries. An upload is confined to regular files inside `--upload-root` only when you pass `--upload-root`. Without it, any readable .ipa or .pkg path is opened.
+- Install: `uvx --from git+https://github.com/menot-you/n-apple napple mcp serve --upload-root PATH`. The no.tt installer does not install nAPPLE.
+
+## Docs
+
+- [README](README.md): overview, install and quick start
+- [Reference](docs/REFERENCE.md): every CLI command and MCP tool
+- [Architecture](docs/ARCHITECTURE.md): trust boundaries and what is not covered
+- [Runbook](docs/RUNBOOK.md): setup, operation and restoration
+
+## Optional
+
+- [NOTT plugin](https://github.com/menot-you/plugin): the plugin and its family
