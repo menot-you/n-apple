@@ -65,9 +65,6 @@ class Client:
     def patch(self, path: str, body: dict[str, Any]) -> dict[str, Any]:
         return self._call("PATCH", self._url(path), json=body)
 
-    def delete(self, path: str) -> None:
-        self._send("DELETE", self._url(path))
-
     def put_part(
         self, url: str, method: str, headers: dict[str, str], data: bytes
     ) -> None:

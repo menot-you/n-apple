@@ -57,7 +57,7 @@
     "CHANGELOG.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "3969dce6e255aa56422ba5ce255f99d16aeebe44e265b476c8b4fcd7393dc323"
+      "sha256": "660081b44af28b157f956b47b9edf42b5e5c556ea279f56175e38d32bd066e52"
     },
     "CITATION.cff": {
       "executable": false,
@@ -87,7 +87,7 @@
     "README.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "73451aa63ee4afb875281010cf7a4da429070f3248b61a7c3383cf2fcc2947f4"
+      "sha256": "2b317fd902dd6e76270457d5ff7d397259139a2f2993c513ba9e97bae6fc04b0"
     },
     "SECURITY.md": {
       "executable": false,
@@ -117,17 +117,17 @@
     "docs/PRIVACY.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "893dd7bf220ff2ae4233877de317bc32d26b45d7dd37cd2ae2c5081dc173e0db"
+      "sha256": "caeca89c67425c152b76cbae8b8c99cef14d6be528e482b36e89bb87e3c32f22"
     },
     "docs/QUALITY.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "a5ad6e1d74349734698750a8c2b22f1fbdaa3f6f6b9f6973896f6cf0ecee4db0"
+      "sha256": "a3aad11a9e3c74ea2676d32e7c89630791518660337cbf0125cacc2c0a15cb44"
     },
     "docs/README.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "2c55cc2e1175a293909d9f7894753e1b69100f7552b8bc3a6ce304450bf2cf80"
+      "sha256": "fb41e6d1baccea72ec3bfb00d4d5e2af0ee6a82dc27c6046dc4c573d534ef9ac"
     },
     "docs/REFERENCE.md": {
       "executable": false,
@@ -147,7 +147,7 @@
     "docs/SETUP.md": {
       "executable": false,
       "mode": 420,
-      "sha256": "637c40db9d624cd59311510fe9b6c7cdb110a34f31e309578b7ba33301cfdb1a"
+      "sha256": "0346e1ff8ff3cb09bcffa90b2e26bd4b2e60b94a43fbc100d1e61e51ea97657d"
     },
     "docs/TROUBLESHOOTING.md": {
       "executable": false,
@@ -162,7 +162,7 @@
     "docs/export-map.json": {
       "executable": false,
       "mode": 420,
-      "sha256": "4502e6d7c31ef4b21aef4e022b5b9a9520be0110bc988d07e4f806f003153fc6"
+      "sha256": "472a30ca7fc3117cbe44624631f121f612e74df14575d949564b2722fa1f1610"
     },
     "docs/figures/README.md": {
       "executable": false,
@@ -177,7 +177,7 @@
     "docs/figures/browser-security.svg": {
       "executable": false,
       "mode": 420,
-      "sha256": "5c0e9f501518c955b6c06e4d5d51689e779bc1a974939518669ea2071b196798"
+      "sha256": "9485db25c58e71d3e64f1767bc45ab1b9c997b4ecb118d7a2fe411f75dea829c"
     },
     "docs/figures/browser.svg": {
       "executable": false,
@@ -192,7 +192,7 @@
     "docs/figures/chart-tools.svg": {
       "executable": false,
       "mode": 420,
-      "sha256": "3b07a92642c32c576c124e03d8390263797d8b13804e066a69fe8fcf0139e00b"
+      "sha256": "b321b95138af1858fee7d35bc5205f2ba68e0d82f79a23a4aa20d744576be670"
     },
     "docs/figures/hero-napple-dark.svg": {
       "executable": false,
@@ -277,7 +277,7 @@
     "docs/figures/memory-system1.svg": {
       "executable": false,
       "mode": 420,
-      "sha256": "d37c5315810d2328cd5989f545825cb68bdebfc4a81d216fff637b958c7904c2"
+      "sha256": "2da39dbbeba09a7802fa66f5778adf9a559a4d26c9f8507925e60f7f323e9b10"
     },
     "docs/figures/memory.svg": {
       "executable": false,
@@ -292,7 +292,7 @@
     "docs/figures/plugin-lifecycle.svg": {
       "executable": false,
       "mode": 420,
-      "sha256": "e1d3e812ae55fb005da561fe004a821cf3e1ef4430fbd88b8d270c57994c3e72"
+      "sha256": "20d1ae4317ed467991ff3063ce060d3d8f7d8cb867fb1722c3c41b1f2352697f"
     },
     "docs/figures/plugin.svg": {
       "executable": false,
@@ -313,11 +313,6 @@
       "executable": false,
       "mode": 420,
       "sha256": "5fb7a81f63f9c84b217a092fbc9edba1f531c7b95e3b076631a07e4ec5c289ef"
-    },
-    "docs/setup-catalog.json": {
-      "executable": false,
-      "mode": 420,
-      "sha256": "b8898f0c4ab0c36f51fa2ae469fa82f0112d553a7384b210d53f4759d80cedf5"
     },
     "llms.txt": {
       "executable": false,
@@ -342,7 +337,7 @@
     "napple/client.py": {
       "executable": false,
       "mode": 420,
-      "sha256": "f61632ba7ff7663d5094b4386605231621a218fa98e90065409181edeb384bd7"
+      "sha256": "3e58107cf17724df738d71b5b689b9895380307549bc2ed04ab969cff6c5b186"
     },
     "napple/config.py": {
       "executable": false,
@@ -402,7 +397,7 @@
     "tests/test_client.py": {
       "executable": false,
       "mode": 420,
-      "sha256": "2b157a2b247dcb2e56f773a784ed82f6b682200e524dcf2f7585db4f85e3cd6d"
+      "sha256": "0e92341cda2e6e91aca6069183a39c2993e68c1ecc7673e18df279fc55d48cb2"
     },
     "tests/test_config.py": {
       "executable": false,

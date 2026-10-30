@@ -210,7 +210,7 @@ def test_429_four_times_raises_rate_limit(
     assert "slow down" in str(caught.value)
 
 
-@pytest.mark.parametrize("method", ["POST", "PATCH", "DELETE"])
+@pytest.mark.parametrize("method", ["POST", "PATCH"])
 def test_writes_are_never_retried(
     asc: FakeAsc, client: Client, sleeps: list[float], method: str
 ) -> None:
@@ -226,10 +226,8 @@ def test_writes_are_never_retried(
     with pytest.raises(RateLimitError):
         if method == "POST":
             client.post("/v1/builds/1", {"data": {}})
-        elif method == "PATCH":
-            client.patch("/v1/builds/1", {"data": {}})
         else:
-            client.delete("/v1/builds/1")
+            client.patch("/v1/builds/1", {"data": {}})
 
     assert len(asc.calls(method)) == 1
     assert sleeps == []
@@ -312,18 +310,18 @@ def test_a_redirect_on_post_is_not_replayed(asc: FakeAsc, client: Client) -> Non
     assert asc.calls("POST", "/v1/other") == []
 
 
-def test_post_and_patch_send_json_and_delete_accepts_204(
+def test_post_and_patch_send_json_and_patch_accepts_204(
     asc: FakeAsc, client: Client
 ) -> None:
     asc.reply("POST", "/v1/builds", 201, {"data": {"id": "9"}})
     asc.reply("PATCH", "/v1/builds/9", 200, {"data": {"id": "9"}})
-    asc.reply("DELETE", "/v1/builds/9", 204, b"")
+    asc.reply("PATCH", "/v1/builds/8", 204, b"")
 
     assert client.post("/v1/builds", {"data": {"type": "builds"}}) == {
         "data": {"id": "9"}
     }
     assert client.patch("/v1/builds/9", {"data": {}}) == {"data": {"id": "9"}}
-    assert client.delete("/v1/builds/9") is None
+    assert client.patch("/v1/builds/8", {"data": {}}) == {}
 
     post = asc.calls("POST")[0]
     assert post.body == b'{"data":{"type":"builds"}}'
